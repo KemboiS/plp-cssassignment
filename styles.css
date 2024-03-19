@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 0;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#introduction {
+  background-color: #e0e0e0;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#contact {
+  background-color: #f5f5f5;
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  header, section {
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.2rem;  /* Adjust font size for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;  /* Further adjust for very small screens */
+  }
+}
